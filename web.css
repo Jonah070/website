@@ -173,3 +173,38 @@ footer{
     margin:0 auto;
     max-width: 1200px;
 }
+
+/* MEDIA QUERIES */
+/*MEDIUM SCREEN */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    nav ul li a{
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+}
+
+/* LARGE SCREEN */
+@media screen and (min-width: 1025px){
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    nav ul li a{
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+}
