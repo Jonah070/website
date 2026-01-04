@@ -1,0 +1,175 @@
+/* OVERALL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* OVERALL BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADINGS */
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* PARAGRAPHS */
+p{
+    margin-bottom: 15px;
+}
+
+/* LINKS */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* IMAGES */
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* NAVIGATION BAR */
+nav{
+    background-color: #d1c4c4;
+    padding: 12px 20px;
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+nav ul li{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a.active{
+    background-color: #b3a6a6;
+    color: #000;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: #c62828;
+}
+
+/* LOGO */
+.logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+/* BOX */
+.box{
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+/* PRODUCTS SECTION*/
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.product-description p{
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.product-image{
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+}
+
+.product-image img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.product-description{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* CONTACT PAGE */
+.box{
+    max-width: 800px;
+    margin: 40px;
+    line-height: 1.7;
+}
+
+.box img{
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.box ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.box ul li{
+    margin-bottom: 8px;
+}
+
+.box p b{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: #d1c4c4;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+   
+}
+
+.title{
+    background-color: #d1c4c4;
+    font-display: block;
+    color: white;
+    gap: 30px;
+    margin:0 auto;
+    max-width: 1200px;
+}
